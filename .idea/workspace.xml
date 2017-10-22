@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d11269db-6707-4909-844d-87f062ae6991" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../laba5555/web/all_parametres.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../laba5555/src/kz/kaznitu/servlets/ParameterTest2Servlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../laba5555/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../laba5555/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../laba5555/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../laba5555/web/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../laba5555/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../laba5555/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="247">
+              <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -51,12 +52,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all_parametres.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="all_parametres.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../laba5555/web/all_parametres.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParameterTest2Servlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../laba5555/src/kz/kaznitu/servlets/ParameterTest2Servlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +99,7 @@
       <file leaf-file-name="CheckboxTestServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../laba5555/src/kz/kaznitu/servlets/CheckboxTestServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
+            <state relative-caret-position="651">
               <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -100,8 +113,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -121,10 +134,11 @@
         <option value="$PROJECT_DIR$/../laba5555/web/hello.html" />
         <option value="$PROJECT_DIR$/../laba5555/src/kz/kaznitu/servlets/ParameterTest1Servlet.java" />
         <option value="$PROJECT_DIR$/../laba5555/src/kz/kaznitu/servlets/CheckboxTestServlet.java" />
-        <option value="$PROJECT_DIR$/../laba5555/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../laba5555/web/WEB-INF/checkbox.html" />
         <option value="$PROJECT_DIR$/../laba5555/web/checkbox.html" />
         <option value="$PROJECT_DIR$/../laba5555/web/all_parametres.html" />
+        <option value="$PROJECT_DIR$/../laba5555/src/kz/kaznitu/servlets/ParameterTest2Servlet.java" />
+        <option value="$PROJECT_DIR$/../laba5555/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -428,7 +442,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508659351194</updated>
-      <workItem from="1508659354327" duration="6080000" />
+      <workItem from="1508659354327" duration="6599000" />
     </task>
     <task id="LOCAL-00001" summary="hello.html файлы құрылды">
       <created>1508660585266</created>
@@ -465,11 +479,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508664004236</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="all_parametres.html файлын құрдық">
+      <created>1508666111141</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1508666111141</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6080000" />
+    <option name="totallyTimeSpent" value="6599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -551,7 +572,8 @@
     <MESSAGE value="ParameterTestServlet класына doPost методын костык" />
     <MESSAGE value="checkbox.html файлы құрылды" />
     <MESSAGE value="Жана класс құрып web.xml ге өзгеріс енгіздік" />
-    <option name="LAST_COMMIT_MESSAGE" value="Жана класс құрып web.xml ге өзгеріс енгіздік" />
+    <MESSAGE value="all_parametres.html файлын құрдық" />
+    <option name="LAST_COMMIT_MESSAGE" value="all_parametres.html файлын құрдық" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -582,24 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../laba5555/src/kz/kaznitu/servlets/CheckboxTestServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../laba5555/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -650,6 +654,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laba5555/src/kz/kaznitu/servlets/CheckboxTestServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laba5555/src/kz/kaznitu/servlets/ParameterTest2Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laba5555/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding />
         </state>
       </provider>
